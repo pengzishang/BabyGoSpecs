@@ -40,4 +40,6 @@ Pod::Spec.new do |s|
 #    s.frameworks = 'UIKit'
     s.dependency 'AFNetworking'
     s.dependency 'BabyGoNetwork'
+    s.dependency 'Firebase/Messaging'
+    s.dependency 'Stripe' , '21.3.1'
 end
